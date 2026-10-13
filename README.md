@@ -1,42 +1,28 @@
-# Gerador de Senhas 🌸
+# Gerador de Senhas
 
-Uma aplicação web para gerar senhas personalizadas, com interface em tons de rosa. É possível escolher o tamanho da senha e quais tipos de caracteres podem ser usados.
+Uma aplicação para montar senhas escolhendo o tamanho e os tipos de caracteres. Fiz o projeto com uma interface rosa e opções para personalizar cada geração.
 
-## ✨ Funcionalidades
-
+## Funcionalidades
 - Senhas de 4 a 32 caracteres
-- Opções para letras maiúsculas e minúsculas
-- Inclusão de números e símbolos
-- Geração de uma nova senha sob demanda
-- Botão para copiar a senha
-- Interface responsiva
+- Escolha de letras maiúsculas e minúsculas
+- Opção de incluir números e símbolos
+- Geração de uma nova senha
+- Botão para copiar o resultado
 
-## 🛠️ Tecnologias
+## Tecnologias
+Next.js, React, TypeScript, Tailwind CSS, Radix UI e Lucide React.
 
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- Componentes Radix UI
-- Lucide React
+## Como executar
+É necessário ter Node.js instalado.
 
-## ▶️ Como executar localmente
-
-Você precisa ter Node.js e um gerenciador de pacotes instalado.
-
-1. Clone este repositório.
-2. Instale as dependências com `npm install`.
-3. Inicie o servidor de desenvolvimento com `npm run dev`.
+1. Clone o repositório.
+2. Rode `npm install` para instalar as dependências.
+3. Execute `npm run dev`.
 4. Abra [http://localhost:3000](http://localhost:3000) no navegador.
 
-Para gerar uma versão de produção, execute `npm run build`.
+Para gerar a versão de produção, use `npm run build`.
 
-## 📚 O que pratiquei
+## O que pratiquei
+Componentes React, hooks, estado, estilização com Tailwind CSS e cópia de texto para a área de transferência.
 
-Componentes React, estado com hooks, formulários de configuração, estilização com Tailwind CSS e interação com a área de transferência do navegador.
-
-> Observação: este projeto é uma ferramenta de estudo. Para senhas de contas importantes, prefira um gerenciador de senhas confiável.
-
----
-
-Feito por [Emely Almeida](https://github.com/emelyalmeida) 💗
+Desenvolvido por [Emely Almeida](https://github.com/emelyalmeida).
